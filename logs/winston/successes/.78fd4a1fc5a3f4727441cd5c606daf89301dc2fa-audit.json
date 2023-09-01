@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\successes\\.78fd4a1fc5a3f4727441cd5c606daf89301dc2fa-audit.json",
+    "files": [
+        {
+            "date": 1693503469068,
+            "name": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\successes\\phu-2023-31-08-23-success.log",
+            "hash": "8bcf35a39d2521c1cf722828e9e7f2570d027f50f76f579115423b4f7ca270ce"
+        },
+        {
+            "date": 1693558799528,
+            "name": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\successes\\phu-2023-01-09-14-success.log",
+            "hash": "0c6bf04acafc60430b7c5c187114632ea6ce2f4cbf9fc6c6561db3bb466e3b5a"
+        },
+        {
+            "date": 1693558800412,
+            "name": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\successes\\phu-2023-01-09-15-success.log",
+            "hash": "ad41fb0254db2ee13e2b61d18ab6de4d7dcb84e2606d39461bb129d7c4e950ad"
+        }
+    ],
+    "hashType": "sha256"
+}
