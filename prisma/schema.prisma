@@ -32,7 +32,7 @@ model Order {
   id           String @id @default(uuid())
   userId       String
   orderedBooks Json
-  status       status @default(pending)
+  status       Status @default(pending)
   user         User   @relation(fields: [userId], references: [id])
 
   createdAt DateTime @default(now())
@@ -84,10 +84,10 @@ model ReviewAndRating {
   @@map("review-rating")
 }
 
-enum status {
-  pending
+enum Status {
   shipped
   delivered
+  pending
 }
 
 enum UserRole {
