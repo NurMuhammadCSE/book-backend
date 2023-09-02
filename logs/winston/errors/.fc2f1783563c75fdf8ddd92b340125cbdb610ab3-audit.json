@@ -19,6 +19,11 @@
             "date": 1693668955231,
             "name": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\errors\\phu-2023-02-09-21-error.log",
             "hash": "e363062bbe196b2ea59b05bca275a72138328ce4828dc7aa055fc012d8a9e779"
+        },
+        {
+            "date": 1693670431142,
+            "name": "D:\\Next Level Web Development\\Mission 6\\Assignment 8\\book-backend\\logs\\winston\\errors\\phu-2023-02-09-22-error.log",
+            "hash": "45dd8b3bd88b49ddfc9f1aaf195f3e545a5eccd2639e5965725d02507efa3529"
         }
     ],
     "hashType": "sha256"
