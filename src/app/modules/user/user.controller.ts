@@ -10,7 +10,7 @@ const getAllUserFromDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'All User Fetched Successfully',
+    message: 'Users retrieved successfully',
     data: result,
   });
 });
@@ -21,7 +21,7 @@ const getSingleUserFromDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Single User Fetched Successfully',
+    message: 'User getched successfully',
     data: result,
   });
 });
@@ -34,7 +34,7 @@ const updateSingleUserFromDB = catchAsync(
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Single User Updated Successfully',
+      message: "User updated successfully",
       data: result,
     });
   }
@@ -47,7 +47,7 @@ const deleteSingleUserFromDB = catchAsync(
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Delete User Successfully',
+      message: "User deleted successfully",
       data: result,
     });
   }

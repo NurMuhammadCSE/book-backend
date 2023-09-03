@@ -20,7 +20,7 @@ const moduleRoutes = [
     route: ProfileRoutes,
   },
   {
-    path: '/user',
+    path: '/users',
     route: UserRoutes,
   },
   {

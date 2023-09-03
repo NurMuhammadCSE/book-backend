@@ -13,7 +13,7 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Order Created Successfully',
+    message: "Order created successfully",
     data: result,
   });
 });
@@ -24,7 +24,7 @@ const getAllOrder = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Category Fetched Successfully',
+    message: "Orders retrieved successfully",
     data: result,
   });
 });
@@ -41,7 +41,7 @@ const getSingleOrder = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Category Fetched Successfully',
+    message: "Order fetched successfully",
     data: result,
   });
 });
@@ -57,7 +57,7 @@ const getMyAllOrder = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Category Fetched Successfully',
+    message: "Orders retrieved successfully",
     data: result,
   });
 });
