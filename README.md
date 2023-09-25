@@ -4,6 +4,7 @@
 
 ## Auth (User)
 - https://book-backend-eight.vercel.app/api/v1/auth/signup (POST)
+- https://book-backend-eight.vercel.app/api/v1/auth/signin (POST)
 - https://book-backend-eight.vercel.app/api/v1/users (GET)
 - https://book-backend-eight.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (Single GET) Include an id that is saved in your database
 - https://book-backend-eight.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (PATCH)
