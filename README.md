@@ -4,6 +4,10 @@
 
 ## Auth (User)
 - https://book-backend-eight.vercel.app/api/v1/auth/signup (POST)
+<<<<<<< HEAD
+=======
+- https://book-backend-eight.vercel.app/api/v1/auth/signin (POST)
+>>>>>>> 84b7ae85e116e06afcf256fb2153c75629b6c1c4
 - https://book-backend-eight.vercel.app/api/v1/users (GET)
 - https://book-backend-eight.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (Single GET) Include an id that is saved in your database
 - https://book-backend-eight.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (PATCH)
@@ -30,4 +34,8 @@
 ## Orders
 - https://book-backend-eight.vercel.app/api/v1/orders/create-order (POST)
 - https://book-backend-eight.vercel.app/api/v1/orders (GET)
+<<<<<<< HEAD
 - https://book-backend-eight.vercel.app/api/v1/orders/:orderId (GET)
+=======
+- https://book-backend-eight.vercel.app/api/v1/orders/:orderId (GET)
+>>>>>>> 84b7ae85e116e06afcf256fb2153c75629b6c1c4
