@@ -14,9 +14,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OrderService = void 0;
 const prisma_1 = __importDefault(require("../../../shared/prisma"));
-const insertIntoDB = (data) => __awaiter(void 0, void 0, void 0, function* () {
+const insertIntoDB = (user, OrderData) => __awaiter(void 0, void 0, void 0, function* () {
+    const orderData = {
+        userId: user.userId,
+        orderedBooks: OrderData.orderedBooks,
+    };
     const result = yield prisma_1.default.order.create({
-        data,
+        data: orderData,
     });
     return result;
 });

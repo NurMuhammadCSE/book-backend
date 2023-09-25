@@ -10,5 +10,5 @@ router.post(
   AuthController.SignUP
 );
 
-router.post('/login', AuthController.loginUser);
+router.post('/signin', AuthController.loginUser);
 export const AuthRouter = router;

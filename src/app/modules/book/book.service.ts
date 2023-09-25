@@ -10,6 +10,7 @@ const insertIntoDB = async (data: Book): Promise<Book> => {
   });
   return result;
 };
+
 const getAllBookFromDB = async (): Promise<Book[]> => {
   const result = await prisma.book.findMany({
     include: {

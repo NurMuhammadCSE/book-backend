@@ -1,8 +1,3 @@
-import { Status } from "@prisma/client";
-
-export type ICreateOrder = {
-  id: string;
-  userId: string;
-  orderedBooks: [{ bookId: string; quantity: number }];
-  status: Status;
+export type OrderInput = {
+  orderedBooks: Array<{ bookId: string; quantity: number }>;
 };

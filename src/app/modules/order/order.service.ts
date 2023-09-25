@@ -1,10 +1,19 @@
 import { Order } from '@prisma/client';
+import { JwtPayload } from 'jsonwebtoken';
 import prisma from '../../../shared/prisma';
-import { ICreateOrder } from './order.interace';
+import { OrderInput } from './order.interace';
 
-const insertIntoDB = async (data: ICreateOrder): Promise<Order> => {
+const insertIntoDB = async (
+  user: JwtPayload,
+  OrderData: OrderInput
+): Promise<Order> => {
+  const orderData = {
+    userId: user.userId,
+    orderedBooks: OrderData.orderedBooks,
+  };
+
   const result = await prisma.order.create({
-    data,
+    data: orderData,
   });
   return result;
 };

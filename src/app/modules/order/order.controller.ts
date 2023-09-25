@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import httpStatus from 'http-status';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../../config';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
 import catchAsync from '../../../shared/catchAsync';
@@ -8,12 +8,12 @@ import sendResponse from '../../../shared/sendResponse';
 import { OrderService } from './order.service';
 
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
-  console.log(req.body);
-  const result = await OrderService.insertIntoDB(req.body);
+  const user = req.user as JwtPayload;
+  const result = await OrderService.insertIntoDB(user, req.body);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: "Order created successfully",
+    message: 'Order created successfully',
     data: result,
   });
 });

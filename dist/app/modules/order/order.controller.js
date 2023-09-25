@@ -20,12 +20,12 @@ const catchAsync_1 = __importDefault(require("../../../shared/catchAsync"));
 const sendResponse_1 = __importDefault(require("../../../shared/sendResponse"));
 const order_service_1 = require("./order.service");
 const insertIntoDB = (0, catchAsync_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(req.body);
-    const result = yield order_service_1.OrderService.insertIntoDB(req.body);
+    const user = req.user;
+    const result = yield order_service_1.OrderService.insertIntoDB(user, req.body);
     (0, sendResponse_1.default)(res, {
         statusCode: http_status_1.default.OK,
         success: true,
-        message: "Order created successfully",
+        message: 'Order created successfully',
         data: result,
     });
 }));
