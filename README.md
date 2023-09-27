@@ -7,18 +7,18 @@
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/auth/signup (POST)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/auth/signin (POST)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/users (GET)
-- https://book-backend-nurmuhammadcse.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (Single GET) Include an id that is saved in your database
+- https://book-backend-nurmuhammadcse.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (Single GET)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (PATCH)
-- https://book-backend-nurmuhammadcse.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (DELETE) Include an id that is saved in your database
+- https://book-backend-nurmuhammadcse.vercel.app/api/v1/users/f4af8d35-24e1-47d2-aeee-8554f1fd9260 (DELETE)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/profile (GET)
 
 ## Category
 
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/create-category (POST)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories (GET)
-- https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/6177a5b87d32123f08d2f5d4 (Single GET) Include an id that is saved in your database
+- https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/6177a5b87d32123f08d2f5d4 (Single GET)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/6177a5b87d32123f08d2f5d4 (PATCH)
-- https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/6177a5b87d32123f08d2f5d4 (DELETE) Include an id that is saved in your database
+- https://book-backend-nurmuhammadcse.vercel.app/api/v1/categories/6177a5b87d32123f08d2f5d4 (DELETE)
 
 ## Books
 
@@ -33,7 +33,4 @@
 
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/orders/create-order (POST)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/orders (GET)
-  <<<<<<< HEAD
-- # https://book-backend-nurmuhammadcse.vercel.app/api/v1/orders/:orderId (GET)
 - https://book-backend-nurmuhammadcse.vercel.app/api/v1/orders/:orderId (GET)
-  > > > > > > > 84b7ae85e116e06afcf256fb2153c75629b6c1c4
